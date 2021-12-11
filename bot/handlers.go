@@ -15,11 +15,13 @@ func SendResponse(s *discordgo.Session, m *discordgo.MessageCreate, response str
 }
 
 func SendCommandsHandler(s *discordgo.Session, m *discordgo.MessageCreate) {
-	s.ChannelMessageSend(m.ChannelID, "Commands are:")
+	var response string = "Commands are:\n"
 	for key, _ := range commands {
-		s.ChannelMessageSend(m.ChannelID, key)
-
+		response += key + "\n"
 	}
+	s.ChannelMessageSend(m.ChannelID, response)
+	time.Sleep(time.Second * 1)
+	s.ChannelMessageSend(m.ChannelID, "sahi se type karna varna reply nahi dunga")
 }
 
 type Contest struct {
