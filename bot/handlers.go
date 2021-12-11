@@ -16,8 +16,10 @@ func SendResponse(s *discordgo.Session, m *discordgo.MessageCreate, response str
 
 func SendCommandsHandler(s *discordgo.Session, m *discordgo.MessageCreate) {
 	var response string = "Commands are:\n"
+	index := 1
 	for key, _ := range commands {
-		response += key + "\n"
+		response += strconv.Itoa(index) + ")" + "\t" + key + "\n"
+		index++
 	}
 	s.ChannelMessageSend(m.ChannelID, response)
 	time.Sleep(time.Second * 1)

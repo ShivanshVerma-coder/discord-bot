@@ -18,8 +18,7 @@ type configStruct struct {
 func ReadConfig() error {
 	Token = os.Getenv("DISCORD_TOKEN")
 	Prefix = os.Getenv("DISCORD_PREFIX")
-	fmt.Println("Token: " + Token)
-	fmt.Println("Prefix: " + Prefix)
+
 	if Token == "" || Prefix == "" {
 		var config configStruct
 		bytes, err := ioutil.ReadFile("config.json")
