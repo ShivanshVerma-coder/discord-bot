@@ -1,14 +1,13 @@
 package main
 
 import (
+	"discord-bot/bot"
+	"discord-bot/config"
 	"fmt"
+	"github.com/gorilla/mux"
 	"log"
 	"net/http"
 	"os"
-
-	"github.com/ShivanshVerma-coder/discord-bot/bot"
-	"github.com/ShivanshVerma-coder/discord-bot/config"
-	"github.com/gorilla/mux"
 )
 
 func main() {

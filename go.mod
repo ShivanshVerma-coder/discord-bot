@@ -1,8 +1,9 @@
-module github.com/ShivanshVerma-coder/discord-bot
+module discord-bot
 
 go 1.17
 
 require (
+	github.com/ShivanshVerma-coder/discord-bot v0.0.0-20211211195936-cd881e47e8c2
 	github.com/bwmarrin/discordgo v0.23.2
 	github.com/gorilla/mux v1.8.0
 )

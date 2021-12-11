@@ -3,7 +3,7 @@ package bot
 import (
 	"log"
 
-	"github.com/ShivanshVerma-coder/discord-bot/config"
+	"discord-bot/config"
 	"github.com/bwmarrin/discordgo"
 )
 
