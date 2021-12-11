@@ -1,7 +1,7 @@
 module discord-bot
 
-// +heroku goVersion go1.17
-go 1.17
+// +heroku goVersion go1.16
+go 1.16
 
 require (
 	github.com/bwmarrin/discordgo v0.23.2
