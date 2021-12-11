@@ -1,5 +1,3 @@
-github.com/ShivanshVerma-coder/discord-bot v0.0.0-20211211195936-cd881e47e8c2 h1:j+j5KjRDvdzNxjdJuTtVcKNAJ/Os713M73sbMDu7O+g=
-github.com/ShivanshVerma-coder/discord-bot v0.0.0-20211211195936-cd881e47e8c2/go.mod h1:Iv/7gKYjaXOQFaRvTQw5Q8QHYEuY8K/xegoCiT6OPk4=
 github.com/bwmarrin/discordgo v0.23.2 h1:BzrtTktixGHIu9Tt7dEE6diysEF9HWnXeHuoJEt2fH4=
 github.com/bwmarrin/discordgo v0.23.2/go.mod h1:c1WtWUGN6nREDmzIpyTp/iD3VYt4Fpx+bVyfBG7JE+M=
 github.com/gorilla/mux v1.8.0 h1:i40aqfkR1h2SlN9hojwV5ZA91wcXFOvkdNIeFDP5koI=
