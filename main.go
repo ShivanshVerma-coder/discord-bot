@@ -4,10 +4,11 @@ import (
 	"discord-bot/bot"
 	"discord-bot/config"
 	"fmt"
-	"github.com/gorilla/mux"
 	"log"
 	"net/http"
 	"os"
+
+	"github.com/gorilla/mux"
 )
 
 func main() {
@@ -31,6 +32,7 @@ func main() {
 	}).Methods("GET")
 
 	port := os.Getenv("PORT")
+	// fmt.Println("port: ", port)
 	log.Fatal(http.ListenAndServe(":"+port, r))
 
 }
