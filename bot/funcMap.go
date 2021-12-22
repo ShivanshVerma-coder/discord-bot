@@ -13,6 +13,7 @@ var commands = map[string]string{
 	"kaise ho":                  "Ab kya bolu guyzz!!",
 	"joshi op":                  "Thanx guyzz!!",
 	"lol":                       "Has kya raha hai bsdk",
+	"joshi ggl ko gali do":      "ggl gandu bsdk madarchod",
 	"bye":                       "Bye guyzzz",
 	"joshi joke sunao":          "abhi nahi badme",
 	"joshi ajke contests batao": "Custom",
