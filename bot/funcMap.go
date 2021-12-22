@@ -9,11 +9,11 @@ import (
 var commands = map[string]string{
 	"joshi bsdk":                "bol bsdk",
 	"joshi dance":               "tu dance kar bsdk",
-	"joshi fuckoff":             "ma chudao bsdk",
+	"joshi fuckoff":             "gali kahe diye bsdk",
 	"kaise ho":                  "Ab kya bolu guyzz!!",
 	"joshi op":                  "Thanx guyzz!!",
 	"lol":                       "Has kya raha hai bsdk",
-	"joshi ggl ko gali do":      "ggl gandu bsdk madarchod",
+	"joshi ggl ko gali do":      "ggl gandu bsdk ",
 	"bye":                       "Bye guyzzz",
 	"joshi joke sunao":          "abhi nahi badme",
 	"joshi ajke contests batao": "Custom",
